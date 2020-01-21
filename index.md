@@ -22,7 +22,7 @@ id: home
     specific language governing permissions and limitations
     under the License.
 -->
-<meta http-equiv="refresh" content="0; url=https://datasketches.apache.org/" />
+
 <!-- Start index.md -->
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <link rel="stylesheet" type="text/css" href="css/header.css">
@@ -40,7 +40,7 @@ id: home
       <p>
         <a class="btn btn-lg btn-outline-inverse" href="overview.html"><span class="fa fa-info-circle"></span> Overview</a>
         <a class="btn btn-lg btn-outline-inverse" href="/docs/downloads.html"><span class="fa fa-download"></span> Download</a>
-        <a class="btn btn-lg btn-outline-inverse" href="README.html"><span class="fa fa-github"></span> GitHub</a>
+        <a class="btn btn-lg btn-outline-inverse" href="https://github.com/apache?utf8=%E2%9C%93&q=datasketches"><span class="fa fa-github"></span> GitHub</a>
         <a class="btn btn-lg btn-outline-inverse" href="/docs/Research.html"><span class="fa fa-paper-plane"></span> Research</a>
         <a class="btn btn-lg btn-outline-inverse" href="https://groups.google.com/forum/#!forum/sketches-user"><span class="fa fa-comment"></span> Forum</a>
       </p>
