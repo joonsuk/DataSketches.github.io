@@ -19,7 +19,7 @@ layout: doc_page
     specific language governing permissions and limitations
     under the License.
 -->
-# *HllSketch* vs *HyperLogLogPlus* Sketch
+# *HllSketch* vs Clearspring *HLL++* Sketch
 The DataSketches HyperLogLog *HllSketch*\[1\]\[2\] implemented in this library has been highly optimized for speed, accuracy and size. The goal of this paper is to do an objective comparison of the *HllSketch* versus the popular Clearspring Technologies' *HyperLogLogPlus*\[3\] implementation, which is based on Google's HyperLogLog++ paper[4]. These tests were performed on the *HllSketch* release version 0.10.1, and on the *HyperLogLogPlus* version 2.9.5.
 
 ## *HllSketch* vs. *HyperLogLogPlus* Error Behavior
@@ -77,7 +77,7 @@ The translation from +/- *s* to fractional ranks is as follows:
 | -2 | 0.022750132 |
 | -3 | 0.001349898 |
 
-With sufficiently large values of *n*, the error distribution will approach the Normal Distribution due to the Central Limit Theorem. The resulting quantile curves using the above FR values allows us to associate the error distribution of the sketch with conventional confidence intervals commonly used in statistics. 
+With sufficiently large values of *n* and *k*, the error distribution will approach the Normal Distribution due to the Central Limit Theorem. The resulting quantile curves using the above FR values allows us to associate the error distribution of the sketch with conventional confidence intervals commonly used in statistics. 
 
 For example, the area between the orange and the green curves corresponds to +/- 1 Standard Deviations or (0.841 - .158) = 68.3% confidence. The area between the red and the blue curves corresponds to +/- 2 Standard Deviations or (0.977 - 0.023) = 95.4% confidence. Similarly, the area between the brown and the purple curves corresponds to +/- 3 Standard Deviations or (0.998 - 0.001) = 99.7% confidence. This implies that out of 65,536 trials, about 196 (0.3%) of the estimates will be outside the brown and purple curves.
 

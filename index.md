@@ -22,6 +22,7 @@ id: home
     specific language governing permissions and limitations
     under the License.
 -->
+
 <!-- Start index.md -->
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <link rel="stylesheet" type="text/css" href="css/header.css">
@@ -39,7 +40,7 @@ id: home
       <p>
         <a class="btn btn-lg btn-outline-inverse" href="overview.html"><span class="fa fa-info-circle"></span> Overview</a>
         <a class="btn btn-lg btn-outline-inverse" href="/docs/downloads.html"><span class="fa fa-download"></span> Download</a>
-        <a class="btn btn-lg btn-outline-inverse" href="README.html"><span class="fa fa-github"></span> GitHub</a>
+        <a class="btn btn-lg btn-outline-inverse" href="https://github.com/apache?utf8=%E2%9C%93&q=datasketches"><span class="fa fa-github"></span> GitHub</a>
         <a class="btn btn-lg btn-outline-inverse" href="/docs/Research.html"><span class="fa fa-paper-plane"></span> Research</a>
         <a class="btn btn-lg btn-outline-inverse" href="https://groups.google.com/forum/#!forum/sketches-user"><span class="fa fa-comment"></span> Forum</a>
       </p>
@@ -51,7 +52,6 @@ id: home
 <div class="container">
   <div class="row">
     <div class="text-justify" style="font-size: 18px; padding-left: 25px; padding-right: 25px">
-<h2>NOTE: The DataSketches Library is being moved to <a href="https://github.com/DataSketches/DataSketches.github.io/blob/master/README.md">ASF</a></h2>
 <p><b>The Business Challenge:</b> Analyzing Big Data Quickly.</p>
 <p>In the analysis of big data there are often problem queries that don’t scale because they require huge compute resources and time to generate exact results. Examples include <i>count distinct</i>, quantiles, most frequent items, joins, matrix computations, and graph analysis.</p>
 
